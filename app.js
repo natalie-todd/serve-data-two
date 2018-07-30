@@ -28,8 +28,8 @@ app.get('/:id', function (req, res) {
             }
         })
     } else {
-        res.json({ data: instructor })
+        res.json({ data: instructor });
     }
 })
 
-app.listen(port, () => console.log(`Listening on http://localhost:${port}`))
+app.listen(port, () => console.log(`Listening on http://localhost:${port}`));
