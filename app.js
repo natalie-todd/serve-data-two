@@ -7,9 +7,9 @@ const app = express();
 app.use(cors());
 
 function findMatch(data, id) {
-    for (i = 0, i < data.length; i++) {
+    for (i = 0; i < data.length; i++) {
         if (data[i].id == id) {
-            return datap[i];
+            return data[i];
         }
     }
     return null;
