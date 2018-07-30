@@ -1,12 +1,12 @@
 {
   "name": "serve-data-two",
   "version": "1.0.0",
-  "description": "",
+  "description": "butts",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "butts",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.4",
